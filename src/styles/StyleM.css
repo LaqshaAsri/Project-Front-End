@@ -1,0 +1,98 @@
+.maulana-page body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f8fafb;
+  color: #333;
+}
+
+.maulana-page nav {
+  background: linear-gradient(90deg, #0b7285, #17a2b8);
+}
+
+.maulana-page .text-teal {
+  color: #0b7285;
+}
+
+.maulana-page h1,
+.maulana-page h2,
+.maulana-page h3,
+.maulana-page h4 {
+  font-weight: 600;
+  color: #0b7285;
+}
+
+.maulana-page section {
+  padding: 40px 20px;
+}
+
+.maulana-page p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.maulana-page .card {
+  border: none;
+  border-left: 5px solid #00acc1;
+  transition: all 0.3s ease;
+}
+
+.maulana-page .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.maulana-page .link1 {
+  color: #0b7285;
+  text-decoration: none;
+}
+
+.maulana-page .link1:hover {
+  color: #0a6474ff;
+  text-decoration: underline;
+}
+
+.maulana-page .partner-logo {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 220px;
+  transition: all 0.3s ease;
+}
+
+.maulana-page .partner-logo:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .maulana-page .partner-logo {
+    min-height: 180px;
+  }
+}
+
+.maulana-page footer {
+  background: linear-gradient(-90deg, #0b7285, #17a2b8);
+  padding-top: 5px;
+  margin-top: 20px;
+}
+
+.maulana-page .footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 50px 0;
+}
+
+@media (max-width: 768px) {
+  .maulana-page .footer-content {
+    flex-direction: column;
+    text-align: center;
+    margin: 10px 20px 0;
+    gap: 10px;
+  }
+}

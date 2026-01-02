@@ -1,0 +1,94 @@
+.felix-page .bodyy {
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #333;
+}
+
+.felix-page header {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.felix-page footer {
+  color: white;
+  background: linear-gradient(-90deg, #0b7285, #17a2b8);
+  padding-top: 5px;
+}
+
+.felix-page .footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 50px 0;
+}
+
+.felix-page.page-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.felix-page .page-content {
+  flex: 1;
+  padding-top: 85px;
+  padding-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  .felix-page .footer-content {
+    flex-direction: column;
+    text-align: center;
+    margin: 10px 20px 0;
+    gap: 10px;
+  }
+}
+
+.felix-page .btn-toska {
+  background-color: #0b7285;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  padding: 10px 18px;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.3s;
+}
+.felix-page .btn-toska:hover {
+  background-color: #00796b;
+  color: #fff;
+}
+
+.felix-page .service-box {
+  background: #ffffffd9;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+.felix-page .service-item {
+  background: #e6fefb;
+  border-left: 5px solid #40b5ad;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+.felix-page .service-item h3 {
+  color: #0b7285;
+}
+
+.felix-page .guide-box {
+  background: #ffffffd9;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+}
+.felix-page .guide-box li {
+  background: #e8fefc;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  border-left: 5px solid #40b5ad;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.felix-page .guide-box h1 {
+  color: #0b7285;
+}

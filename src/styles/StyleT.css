@@ -1,0 +1,228 @@
+.tubagus-page {
+  --primary-color: #0b7285;
+  --secondary-color: #6c757d;
+  --accent-color: #17a2b8;
+  --light-bg: #f8f9fa;
+  --dark-text: #212529;
+  --warning-custom: #ffc107;
+  --button-custom: #0b7285;
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f9fa;
+}
+
+.tubagus-page nav {
+  background: linear-gradient(90deg, #0b7285, #17a2b8);
+}
+
+.tubagus-page .section-title,
+.tubagus-page h1 {
+  font-weight: 700;
+  color: #0b7285;
+  margin-bottom: 1rem;
+}
+
+.tubagus-page .card-custom {
+  background: #ffffff;
+  border-radius: 12px;
+  border: none;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tubagus-page .team-card-hover:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.tubagus-page .team-photo {
+  width: 100%;
+  max-width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #17a2b8;
+  padding: 3px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.tubagus-page .custom-list .list-group-item {
+  border-left: 5px solid #0b7285;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+.tubagus-page .custom-list .badge {
+  background-color: #0b7285;
+}
+
+.tubagus-page .my-custom-class {
+  padding: 0.6rem 1.5rem;
+  border-left: 5px solid #17a2b8;
+  background-color: #e9f7fe;
+  color: var(--dark-text);
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.tubagus-page .text-primary-600 {
+  color: #0b7285;
+}
+.tubagus-page .bg-info-custom {
+  background-color: #17a2b8;
+  color: white;
+}
+.tubagus-page .bg-warning-custom {
+  background-color: #ffc107;
+  color: var(--dark-text);
+}
+.tubagus-page .bg-success-custom {
+  background-color: #28a745;
+  color: white;
+}
+
+.tubagus-page {
+  --primary-color-index: #0b7285;
+  --accent-color-index: #17a2b8;
+  --accent-button-index: #ff6b6b;
+}
+
+.tubagus-page .bg-primary-index {
+  background-color: #0b7285;
+  color: white;
+}
+
+.tubagus-page .bg-accent-index {
+  background-color: #17a2b8;
+  color: white;
+}
+
+.tubagus-page .btn-accent-index {
+  background-color: #ff6b6b;
+  color: white;
+  font-weight: 700;
+}
+
+.tubagus-page .btn-accent-index:hover {
+  background-color: #e85a5a;
+  color: white;
+}
+.tubagus-page .text-info-custom-style {
+  color: #17a2b8;
+}
+
+/* Footer styling */
+.tubagus-page footer {
+  color: white;
+  background: linear-gradient(-90deg, #0b7285, #17a2b8);
+  padding-top: 5px;
+  margin-top: 20px;
+}
+
+.tubagus-page .footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 50px 0;
+}
+
+@media (max-width: 768px) {
+  .tubagus-page .footer-content {
+    flex-direction: column;
+    text-align: center;
+    margin: 10px 20px 0;
+    gap: 10px;
+  }
+}
+
+.tubagus-page .detail-photo-compact {
+  width: 100%;
+  max-width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 6px solid #0b7285;
+  padding: 3px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  margin: 0 auto 1.5rem auto;
+}
+.tubagus-page .section-separator {
+  border-bottom: 2px dashed #e9ecef;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+}
+.tubagus-page .list-expertise li {
+  font-size: 0.95rem;
+  padding-left: 0;
+}
+
+.tubagus-page .split-header {
+  background-color: #438cdb;
+  color: #ffffff;
+  padding: 3rem 0;
+  margin-bottom: 3rem;
+  border-radius: 0 0 15px 15px;
+  box-shadow: 0 8px 15px rgba(0, 123, 255, 0.3);
+}
+.tubagus-page .detail-photo-split {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 6px solid #ffffff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  margin-bottom: 1rem;
+}
+.tubagus-page .content-tab-area .nav-link {
+  color: var(--dark-text);
+  border-radius: 8px 8px 0 0;
+}
+.tubagus-page .content-tab-area .nav-link.active {
+  background-color: #ffffff;
+  color: #0b7285;
+  border: 1px solid #0b7285;
+  border-bottom: 1px solid #ffffff;
+  font-weight: 600;
+}
+.tubagus-page .tab-content-custom {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 0 8px 8px 8px;
+  border: 1px solid #0b7285;
+}
+
+.tubagus-page .detail-photo-large {
+  width: 100%;
+  max-width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 8px solid var(--warning-custom);
+  padding: 5px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* kontak.html Styles */
+.tubagus-page .contact-header {
+  background: linear-gradient(135deg, #0b7285 0%, #17a2b8 100%);
+  color: white;
+  padding: 4rem 0;
+  margin-bottom: 3rem;
+  border-radius: 0 0 20px 20px;
+}
+.tubagus-page .contact-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  padding: 2.5rem;
+}
+.tubagus-page .info-box {
+  background-color: #f1f6ff;
+  border-left: 5px solid #0b7285;
+  padding: 1.5rem;
+  border-radius: 8px;
+  min-height: 100%;
+}
+.tubagus-page .info-box i {
+  color: #0b7285;
+}

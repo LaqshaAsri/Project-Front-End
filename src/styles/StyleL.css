@@ -1,0 +1,358 @@
+.laqsha-page nav {
+  background: linear-gradient(90deg, #0b7285, #17a2b8);
+}
+
+.laqsha-page footer {
+  color: white;
+  background: linear-gradient(-90deg, #0b7285, #17a2b8);
+  padding-top: 5px;
+  margin-top: 20px;
+}
+
+.laqsha-page footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.laqsha-page footer a:hover {
+  text-decoration: underline;
+}
+
+.laqsha-page .footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 50px 0;
+}
+
+@media (max-width: 768px) {
+  .laqsha-page .footer-content {
+    flex-direction: column;
+    text-align: center;
+    margin: 10px 20px 0;
+    gap: 10px;
+  }
+}
+
+.laqsha-page .container {
+  font: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+}
+
+.laqsha-page .card1 {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  overflow: hidden;
+  box-sizing: border-box;
+  background: linear-gradient(135deg, #0b7285, #17a2b8);
+  box-shadow: 0 8px 30px rgba(11, 114, 133, 0.12);
+}
+
+@media (max-width: 768px) {
+  .laqsha-page .card1 {
+    padding: 2rem 1.5rem;
+    margin: 0 1rem;
+  }
+}
+
+.laqsha-page .btn.btn1 {
+  background: #ff6b6b;
+  color: white;
+}
+
+.laqsha-page .btn.btn1:hover {
+  opacity: 95;
+}
+
+.laqsha-page .btn.btnjadwal {
+  background: #0d6efd;
+  color: white;
+}
+
+.laqsha-page .btn.btnjadwal:hover {
+  opacity: 95;
+}
+
+.laqsha-page .list {
+  margin-bottom: 0.5rem;
+}
+
+.laqsha-page .grid {
+  background-color: #f8f9fa;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+
+.laqsha-page .grid:hover {
+  background-color: #f8f9fa;
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.laqsha-page .grid:hover img {
+  opacity: 0.85;
+  transition: opacity 0.3s ease;
+}
+
+.laqsha-page .profil {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  display: block;
+  border-radius: 100%;
+  border: 2px solid gainsboro;
+  object-fit: cover;
+}
+
+.laqsha-page .rating {
+  font-size: 24px;
+  color: gold;
+}
+
+.laqsha-page .link1 {
+  color: #0b7285;
+  text-decoration: none;
+}
+
+.laqsha-page .link1:hover {
+  color: #055160;
+  text-decoration: underline;
+}
+
+.laqsha-page .iden {
+  display: block;
+  margin-top: 15px;
+}
+
+.laqsha-page .news {
+  width: 100%;
+  height: auto;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .laqsha-page .grid {
+    width: 100%;
+    text-align: center;
+  }
+
+  .laqsha-page .grid p {
+    font-size: 16px;
+    line-height: 1.4;
+    word-wrap: break-word;
+  }
+
+  .laqsha-page .grid .iden {
+    display: block;
+    margin-top: 10px;
+  }
+}
+
+/* -- Halaman Artikel --  */
+.laqsha-page .gridArc {
+  position: relative;
+  width: 18rem;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  object-fit: cover;
+}
+
+.laqsha-page .gridArc img {
+  width: 100%;
+  display: block;
+}
+
+.laqsha-page .gridOverlay {
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #f28c00;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  transition: bottom 0.6s ease;
+  z-index: 2;
+}
+
+.laqsha-page .gridOverlay .card-text.desc {
+  color: #fff !important;
+}
+
+.laqsha-page .gridArc:hover .gridOverlay {
+  bottom: 0;
+}
+
+.laqsha-page .gridArc:hover {
+  transform: translateY(-5px);
+}
+
+.laqsha-page .btn2 {
+  background-color: #0b7285;
+  font-weight: 700;
+  color: white;
+  padding: 4px 7px 7px 7px;
+  border-radius: 20px;
+  text-decoration: none;
+  padding: 12px 15px;
+}
+
+.laqsha-page .btn2:hover {
+  background-color: white;
+  color: #0b7285;
+  border: 2px solid #0b7285;
+}
+
+.laqsha-page .title {
+  font-size: 80px;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .laqsha-page .title {
+    font-size: 50px;
+    font-weight: 500;
+  }
+}
+
+/* Halaman Testimoni */
+.laqsha-page .card3 {
+  position: relative;
+  overflow: hidden;
+}
+
+.laqsha-page .card3 i.fa-quote-left,
+.laqsha-page .card3 i.fa-quote-right {
+  z-index: 0;
+  font-size: 6rem !important;
+}
+
+.laqsha-page .card3-body {
+  color: white;
+  position: relative;
+  z-index: 1;
+  text-align: justify;
+}
+
+.laqsha-page .headCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .laqsha-page .carousel-control-prev,
+  .laqsha-page .carousel-control-next {
+    display: none;
+  }
+}
+
+.laqsha-page .btn3 {
+  background-color: #0b7285;
+  font-weight: 700;
+  color: white;
+  padding: 4px 7px 7px 7px;
+  border-radius: 10px;
+  border: none;
+}
+
+.laqsha-page .btn3:hover {
+  background-color: #0c5f6eff;
+}
+
+/* Halaman Jadwal */
+.laqsha-page .card4 {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  border-radius: 20px;
+  background: linear-gradient(45deg, rgba(28, 49, 242, 1), rgba(255, 255, 255, 1));
+  box-shadow: 0 8px 30px rgba(11, 114, 133, 0.12);
+}
+
+@media (max-width: 768px) {
+  .laqsha-page .card4 {
+    padding: 2rem 1.5rem;
+    margin: 0 1rem;
+  }
+  .laqsha-page .card4 .row {
+    flex-direction: column-reverse !important;
+  }
+  .laqsha-page .card4 img {
+    margin-top: 1.5rem;
+    border-radius: 15px;
+  }
+}
+
+.laqsha-page .card5 {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.laqsha-page .table-responsive {
+  overflow-x: auto;
+}
+
+@media (max-width: 768px) {
+  .laqsha-page .card5 {
+    padding: 2rem 1.5rem;
+    margin: 0 1rem;
+  }
+
+  .laqsha-page .table-responsive {
+    padding: 1rem;
+  }
+
+  table th,
+  table td {
+    font-size: 0.9rem;
+    white-space: nowrap;
+  }
+
+  .laqsha-page .dokter {
+    display: block;
+    font-size: 0.95rem;
+  }
+
+  a[href="kontak.html"] {
+    font-size: 0.9rem !important;
+  }
+}
+
+.laqsha-page .btn4 {
+  color: white;
+  background-color: #53c4ac;
+  font-size: 16px;
+  font-weight: 700;
+  width: 170px;
+  border-radius: 10px;
+}
+
+.laqsha-page .btn4:hover {
+  color: white;
+  background-color: #4cae99ff;
+}
+
+.laqsha-page .dokter {
+  color: black;
+  text-decoration: none;
+}
+
+.laqsha-page .dokter:hover {
+  color: blue;
+}
