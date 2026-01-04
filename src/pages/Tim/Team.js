@@ -16,90 +16,90 @@ class Team extends React.Component {
 
             <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
               <div className="col">
-                <div className="card card-custom team-card-hover h-100 p-4 d-flex align-items-center text-start">
-                  <div className="d-flex align-items-center me-4 flex-shrink-0" style={{ minWidth: "150px" }}>
-                    <i className="fas fa-user-md text-primary-600 fa-2x me-3"></i>
-                    <h5 className="fw-bold mb-0 flex-grow-1">Dr. Arsad, Sp.PD</h5>
+                <div className="card card-custom team-card-hover h-100 p-4 text-start shadow-sm border-0">
+                  <div className="mb-3">
+                    <i className="fas fa-user-md text-primary-600 fa-3x mb-3"></i>
+                    <h5 className="fw-bold mb-1">Dr. Arsad, Sp.PD</h5>
+                    <span className="badge bg-info-custom rounded-pill">Spesialis Penyakit Dalam</span>
                   </div>
-                  <div className="flex-grow-1">
-                    <p className="mb-1 badge bg-info-custom rounded-pill">
-                      <small>Spesialis Penyakit Dalam</small>
-                    </p>
+                  <div className="mb-4">
                     <p className="text-muted small mb-0">Pengalaman 10 tahun. Fokus: manajemen diabetes dan hipertensi.</p>
-                    <Link to={"drarsad"} className="btn btn-outline-primary fw-bold text-dark rounded-pill px-4 py-2">
-                      Info..
+                  </div>
+                  <div className="mt-auto">
+                    <Link to={"drarsad"} className="btn btn-outline-primary fw-bold text-dark rounded-pill px-4 py-2 w-100">
+                      Info Selengkapnya
                     </Link>
                   </div>
                 </div>
               </div>
 
               <div className="col">
-                <div className="card card-custom team-card-hover h-100 p-4 d-flex align-items-center text-start">
-                  <div className="d-flex align-items-center me-4 flex-shrink-0" style={{ minWidth: "150px" }}>
-                    <i className="fas fa-user-md text-primary-600 fa-2x me-3"></i>
-                    <h5 className="fw-bold mb-0 flex-grow-1">Dr. Laqsha, Sp.PD</h5>
+                <div className="card card-custom team-card-hover h-100 p-4 text-start shadow-sm border-0">
+                  <div className="mb-3">
+                    <i className="fas fa-user-md text-primary-600 fa-3x mb-3"></i>
+                    <h5 className="fw-bold mb-1">Dr. Laqsha, Sp.PD</h5>
+                    <span className="badge bg-info-custom rounded-pill">Spesialis Penyakit Dalam</span>
                   </div>
-                  <div className="flex-grow-1">
-                    <p className="mb-1 badge bg-info-custom rounded-pill">
-                      <small>Spesialis Penyakit Dalam</small>
-                    </p>
+                  <div className="mb-4">
                     <p className="text-muted small mb-0">Pengalaman 5 tahun. Fokus: manajemen diabetes dan hipertensi.</p>
-                    <Link to={"drlaqsha"} className="btn btn-outline-primary fw-bold text-dark rounded-pill px-4 py-2">
-                      Info..
+                  </div>
+                  <div className="mt-auto">
+                    <Link to={"drlaqsha"} className="btn btn-outline-primary fw-bold text-dark rounded-pill px-4 py-2 w-100">
+                      Info Selengkapnya
                     </Link>
                   </div>
                 </div>
               </div>
 
               <div className="col">
-                <div className="card card-custom team-card-hover h-100 p-4 d-flex align-items-center text-start">
-                  <div className="d-flex align-items-center me-4 flex-shrink-0" style={{ minWidth: "150px" }}>
-                    <i className="fas fa-brain text-warning-custom fa-2x me-3"></i>
-                    <h5 className="fw-bold mb-0 flex-grow-1">Dr. Juan., Sp.KJ</h5>
+                <div className="card card-custom team-card-hover h-100 p-4 text-start shadow-sm border-0">
+                  <div className="mb-3">
+                    <i className="fas fa-brain text-warning-custom fa-3x mb-3"></i>
+                    <h5 className="fw-bold mb-1">Dr. Juan., Sp.KJ</h5>
+                    <span className="badge bg-warning-custom rounded-pill">Psikiater</span>
                   </div>
-                  <div className="flex-grow-1">
-                    <p className="mb-1 badge bg-warning-custom rounded-pill">
-                      <small>Psikiater</small>
-                    </p>
+                  <div className="mb-4">
                     <p className="text-muted small mb-0">Fokus: Konsultasi kesehatan mental dewasa & remaja.</p>
-                    <Link to={"drjuan"} className="btn btn-outline-primary fw-bold text-dark rounded-pill px-4 py-2">
-                      Info..
+                  </div>
+                  <div className="mt-auto">
+                    <Link to={"drjuan"} className="btn btn-outline-primary fw-bold text-dark rounded-pill px-4 py-2 w-100">
+                      Info Selengkapnya
                     </Link>
                   </div>
                 </div>
               </div>
 
               <div className="col">
-                <div className="card card-custom team-card-hover h-100 p-4 d-flex align-items-center text-start">
-                  <div className="d-flex align-items-center me-4 flex-shrink-0" style={{ minWidth: "150px" }}>
-                    <i className="fas fa-user-nurse text-success-custom fa-2x me-3"></i>
-                    <h5 className="fw-bold mb-0 flex-grow-1">Ners Maulana, S.Kep</h5>
+                <div className="card card-custom team-card-hover h-100 p-4 text-start shadow-sm border-0">
+                  <div className="mb-3">
+                    <i className="fas fa-user-nurse text-success-custom fa-3x mb-3"></i>
+                    <h5 className="fw-bold mb-1">Ners Maulana, S.Kep</h5>
+                    <span className="badge bg-success-custom rounded-pill">Perawat Senior</span>
                   </div>
-                  <div className="flex-grow-1">
-                    <p className="mb-1 badge bg-success-custom rounded-pill">
-                      <small>Perawat Senior</small>
-                    </p>
+                  <div className="mb-4">
                     <p className="text-muted small mb-0">Peran: Koordinator rawat jalan & edukasi pasien.</p>
-                    <Link to={"nersmaulana"} className="btn btn-outline-primary fw-bold text-dark rounded-pill px-4 py-2">
-                      Info..
+                  </div>
+                  <div className="mt-auto">
+                    <Link to={"nersmaulana"} className="btn btn-outline-primary fw-bold text-dark rounded-pill px-4 py-2 w-100">
+                      Info Selengkapnya
                     </Link>
                   </div>
                 </div>
               </div>
 
               <div className="col">
-                <div className="card card-custom team-card-hover h-100 p-4 d-flex align-items-center text-start">
-                  <div className="d-flex align-items-center me-4 flex-shrink-0" style={{ minWidth: "150px" }}>
-                    <i className="fas fa-user-nurse text-success-custom fa-2x me-3"></i>
-                    <h5 className="fw-bold mb-0 flex-grow-1">Ners Felix, S.Kep</h5>
+                <div className="card card-custom team-card-hover h-100 p-4 text-start shadow-sm border-0">
+                  <div className="mb-3">
+                    <i className="fas fa-user-nurse text-success-custom fa-3x mb-3"></i>
+                    <h5 className="fw-bold mb-1">Ners Felix, S.Kep</h5>
+                    <span className="badge bg-success-custom rounded-pill">Perawat</span>
                   </div>
-                  <div className="flex-grow-1">
-                    <p className="mb-1 badge bg-success-custom rounded-pill">
-                      <small>Perawat</small>
-                    </p>
+                  <div className="mb-4">
                     <p className="text-muted small mb-0">Peran: Koordinator rawat jalan & edukasi pasien.</p>
-                    <Link to={"nersfelix"} className="btn btn-outline-primary fw-bold text-dark rounded-pill px-4 py-2">
-                      Info..
+                  </div>
+                  <div className="mt-auto">
+                    <Link to={"nersfelix"} className="btn btn-outline-primary fw-bold text-dark rounded-pill px-4 py-2 w-100">
+                      Info Selengkapnya
                     </Link>
                   </div>
                 </div>

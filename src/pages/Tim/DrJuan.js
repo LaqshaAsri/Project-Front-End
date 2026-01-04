@@ -8,7 +8,6 @@ class DrJuan extends React.Component {
     return (
       <>
         <div className="tubagus-page">
-          {/* Header dengan background ungu/indigo */}
           <div className="split-header" style={{ marginTop: "55px", background: "linear-gradient(135deg, #4b0082 0%, #6a5acd 100%)" }}>
             <div className="container">
               <div className="row align-items-center">
