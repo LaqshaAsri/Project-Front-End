@@ -66,11 +66,6 @@ function App() {
         <Route path="/tim" element={<IndexTeam />}>
           <Route index element={<Team />} />
           <Route path=":id" element={<ProfileDetail />} />
-          {/* <Route path="drarsad" element={<DrArsad />} />
-          <Route path="drlaqsha" element={<DrLaqsha />} />
-          <Route path="drjuan" element={<DrJuan />} />
-          <Route path="nersmaulana" element={<NersMaulana />} />
-          <Route path="nersfelix" element={<NersFelix />} /> */}
         </Route>
 
         <Route path="/kontak" element={<IndexKontak />}>
