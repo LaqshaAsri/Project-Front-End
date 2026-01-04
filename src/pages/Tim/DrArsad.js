@@ -22,7 +22,9 @@ class DrArsad extends React.Component {
                 <div className="col-md-6 text-center text-md-end mt-4 mt-md-0">
                   <h5 className="fw-bold mb-1">Pengalaman: 10 Tahun</h5>
                   <p className="mb-3">Fokus: Manajemen Diabetes & Hipertensi</p>
-                  <Link to="/kontak" className="btn btn-warning fw-bold text-dark rounded-pill px-4 py-2">
+                  <Link to="/kontak" 
+          className="btn fw-bold rounded-pill px-4 py-2" 
+          style={{ backgroundColor: "#86bef6ff", color: "#3c6cefff", border: "none", boxShadow: "0 4px 15px rgba(0,0,0,0.1)", textDecoration: "none"}}>
                     Buat Janji Konsultasi
                   </Link>
                 </div>

@@ -80,6 +80,9 @@ class Team extends React.Component {
                       <small>Perawat Senior</small>
                     </p>
                     <p className="text-muted small mb-0">Peran: Koordinator rawat jalan & edukasi pasien.</p>
+                    <Link to={"nersmaulana"} className="btn btn-outline-primary fw-bold text-dark rounded-pill px-4 py-2">
+                      Info..
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -95,6 +98,9 @@ class Team extends React.Component {
                       <small>Perawat</small>
                     </p>
                     <p className="text-muted small mb-0">Peran: Koordinator rawat jalan & edukasi pasien.</p>
+                    <Link to={"nersfelix"} className="btn btn-outline-primary fw-bold text-dark rounded-pill px-4 py-2">
+                      Info..
+                    </Link>
                   </div>
                 </div>
               </div>

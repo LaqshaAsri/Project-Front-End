@@ -31,6 +31,8 @@ import Team from "./pages/Tim/Team";
 import DrArsad from "./pages/Tim/DrArsad";
 import DrLaqsha from "./pages/Tim/DrLaqsha";
 import DrJuan from "./pages/Tim/DrJuan";
+import NersMaulana from "./pages/Tim/NersMaulana";
+import NersFelix from "./pages/Tim/NersFelix";
 
 // Halaman Kontak
 import IndexKontak from "./pages/Kontak/IndexKontak";
@@ -70,6 +72,8 @@ function App() {
           <Route path="drarsad" element={<DrArsad />} />
           <Route path="drlaqsha" element={<DrLaqsha />} />
           <Route path="drjuan" element={<DrJuan />} />
+          <Route path="nersmaulana" element={<NersMaulana />} />
+          <Route path="nersfelix" element={<NersFelix />} />
         </Route>
 
         <Route path="/kontak" element={<IndexKontak />}>

@@ -8,90 +8,79 @@ class DrLaqsha extends React.Component {
     return (
       <>
         <div className="tubagus-page">
-          <header className="py-5 text-center" style={{ backgroundColor: "var(--light-bg)", marginTop: "55px" }}>
+          {/* Header dengan background Teal/Hijau Tosca */}
+          <div className="split-header" style={{ marginTop: "55px", background: "linear-gradient(135deg, #00695c 0%, #26a69a 100%)" }}>
             <div className="container">
-              <h1>
-                <span style={{ color: "black" }}>Dr. Laqsha, Sp.PD</span>
-              </h1>
-              <p className="lead text-secondary">Spesialis Penyakit Dalam | Fokus Metabolik & Gaya Hidup</p>
-            </div>
-          </header>
-
-          <section className="container py-5">
-            <div className="row g-4 justify-content-center mb-5">
-              <div className="col-md-4">
-                <div className="card card-custom p-4 h-100">
-                  <h5 className="fw-bold mb-3 text-primary-600">Pendekatan Medis</h5>
-                  <p className="text-muted small">Fokus pada pencegahan dan manajemen dini penyakit metabolik. Menggabungkan teknologi terkini dengan edukasi pasien yang sabar dan holistik.</p>
-                  <Link to="/layanan" className="btn btn-sm btn-outline-primary w-100 mt-auto">
-                    Telusuri Layanan
-                  </Link>
+              <div className="row align-items-center">
+                <div className="col-md-6 text-center text-md-start">
+                  <img src={ProfilDokter} alt="Foto Dr. Laqsha" className="detail-photo-split d-block mx-auto mx-md-0" />
+                  <h1>
+                    <span style={{ color: "white" }}>Dr. Laqsha, Sp.PD</span>
+                  </h1>
+                  <p className="lead fw-light text-white-50">Spesialis Penyakit Dalam | Fokus Metabolik</p>
                 </div>
-              </div>
 
-              <div className="col-md-4 text-center">
-                <img src={ProfilDokter} alt="Foto Dr. Laqsha" className="detail-photo-compact mb-3" />
-                <h3 className="h5 fw-bold mb-0">Pengalaman: 5 Tahun</h3>
-                <p className="text-secondary small">Sejak Lulus Spesialis</p>
-              </div>
-
-              <div className="col-md-4">
-                <div className="card card-custom p-4 h-100 bg-light">
-                  <h5 className="fw-bold mb-3 text-primary-600">Buat Janji Temu</h5>
-                  <p className="mb-1">
-                    <small>Email: laqsha.sp.pd@teammed.com</small>
-                  </p>
-                  <p className="mb-3">
-                    <small>Telepon: (021) 123-4568</small>
-                  </p>
-                  <Link to="/kontak" className="btn btn-primary w-100 mt-auto">
+                <div className="col-md-6 text-center text-md-end mt-4 mt-md-0">
+                  <h5 className="fw-bold mb-1 text-white">Pengalaman: 5 Tahun</h5>
+                  <p className="mb-3 text-white-50">Kesehatan Diabetes & Hipertensi</p>
+                  <Link to="/kontak" 
+  className="btn fw-bold text-white rounded-pill px-4 py-2" 
+  style={{ backgroundColor: "#56cb71ff", border: "none", boxShadow: "0 4px 15px rgba(0,0,0,0.2)" }}>
                     Jadwalkan Konsultasi
                   </Link>
                 </div>
               </div>
             </div>
+          </div>
 
-            <div className="row g-4 mt-5">
-              <div className="col-md-6">
-                <h2 className="section-title">Fokus & Keahlian Klinis</h2>
-                <div className="card card-custom p-4">
-                  <ul className="list-group list-group-flush list-expertise">
-                    <li className="list-group-item d-flex align-items-center my-custom-class">
-                      <i className="fas fa-microscope me-3 text-info"></i> Deteksi dan Pencegahan Sindrom Metabolik
-                    </li>
-                    <li className="list-group-item d-flex align-items-center my-custom-class">
-                      <i className="fas fa-heartbeat me-3 text-info"></i> Pengelolaan Pola Hidup Pasien Hipertensi
-                    </li>
-                    <li className="list-group-item d-flex align-items-center my-custom-class">
-                      <i className="fas fa-calendar-check me-3 text-info"></i> Konsultasi Pra-Operasi & Post-Operasi
-                    </li>
-                    <li className="list-group-item d-flex align-items-center my-custom-class">
-                      <i className="fas fa-allergies me-3 text-info"></i> Penyakit Autoimun dan Alergi Dewasa
-                    </li>
-                  </ul>
+          <section className="container content-tab-area py-3">
+            <ul className="nav nav-tabs border-0" id="myTab" role="tablist">
+              <li className="nav-item" role="presentation">
+                <button className="nav-link active" id="tentang-tab" data-bs-toggle="tab" data-bs-target="#tentang" type="button" role="tab">
+                  Profil & Pendekatan
+                </button>
+              </li>
+              <li className="nav-item" role="presentation">
+                <button className="nav-link" id="keahlian-tab" data-bs-toggle="tab" data-bs-target="#keahlian" type="button" role="tab">
+                  Fokus Klinis
+                </button>
+              </li>
+              <li className="nav-item" role="presentation">
+                <button className="nav-link" id="pendidikan-tab" data-bs-toggle="tab" data-bs-target="#pendidikan" type="button" role="tab">
+                  Pendidikan
+                </button>
+              </li>
+            </ul>
+
+            <div className="tab-content tab-content-custom" id="myTabContent">
+              <div className="tab-pane fade show active" id="tentang" role="tabpanel">
+                <h3 className="section-title" style={{ color: "#00695c" }}>Pendekatan Medis</h3>
+                <p>Fokus pada pencegahan dan manajemen dini penyakit metabolik.</p>
+                <p className="text-secondary">Menggabungkan teknologi terkini dengan edukasi pasien yang holistik.</p>
+              </div>
+
+              <div className="tab-pane fade" id="keahlian" role="tabpanel">
+                <h3 className="section-title" style={{ color: "#00695c" }}>Bidang Kompetensi</h3>
+                <div className="row">
+                  <div className="col-md-6">
+                    <ul className="list-group list-group-flush">
+                      <li className="list-group-item d-flex align-items-center">
+                        <i className="fas fa-microscope me-3" style={{ color: "#26a69a" }}></i> Deteksi Sindrom Metabolik
+                      </li>
+                      <li className="list-group-item d-flex align-items-center">
+                        <i className="fas fa-heartbeat me-3" style={{ color: "#26a69a" }}></i> Pengelolaan Hipertensi
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
 
-              <div className="col-md-6">
-                <h2 className="section-title">Riwayat Pendidikan</h2>
-                <div className="card card-custom p-4">
-                  <div>
-                    <p className="fw-bold mb-1">Spesialis Penyakit Dalam</p>
-                    <p className="text-secondary mb-3">
-                      <small>Universitas Padjajaran (2020)</small>
-                    </p>
-
-                    <p className="fw-bold mb-1">Dokter Umum</p>
-                    <p className="text-secondary mb-3">
-                      <small>Universitas Brawijaya (2014)</small>
-                    </p>
-
-                    <p className="fw-bold mb-1">Sertifikasi Manajemen DM Terkini</p>
-                    <p className="text-secondary mb-3">
-                      <small>Perkumpulan Endokrinologi Indonesia (2023)</small>
-                    </p>
-                  </div>
-                </div>
+              <div className="tab-pane fade" id="pendidikan" role="tabpanel">
+                <h3 className="section-title" style={{ color: "#00695c" }}>Riwayat Akademik</h3>
+                <p className="fw-bold mb-1">Spesialis Penyakit Dalam</p>
+                <p className="text-secondary mb-3"><small>Universitas Padjajaran (2020)</small></p>
+                <p className="fw-bold mb-1">Sertifikasi Manajemen DM Terkini</p>
+                <p className="text-secondary"><small>Perkumpulan Endokrinologi Indonesia (2023)</small></p>
               </div>
             </div>
           </section>
