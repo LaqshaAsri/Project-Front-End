@@ -29,11 +29,6 @@ import Donasi from "./pages/Layanan/Donasi";
 import IndexTeam from "./pages/Tim/IndexTeam";
 import Team from "./pages/Tim/Team";
 import ProfileDetail from "./pages/Tim/ProfileDetail";
-// import DrArsad from "./pages/Tim/DrArsad";
-// import DrLaqsha from "./pages/Tim/DrLaqsha";
-// import DrJuan from "./pages/Tim/DrJuan";
-// import NersMaulana from "./pages/Tim/NersMaulana";
-// import NersFelix from "./pages/Tim/NersFelix";
 
 // Halaman Kontak
 import IndexKontak from "./pages/Kontak/IndexKontak";
@@ -68,11 +63,9 @@ function App() {
           <Route path="donasi" element={<Donasi />} />
         </Route>
 
-        
-
         <Route path="/tim" element={<IndexTeam />}>
           <Route index element={<Team />} />
-          <Route path=":id" element={<ProfileDetail />} />      
+          <Route path=":id" element={<ProfileDetail />} />
           {/* <Route path="drarsad" element={<DrArsad />} />
           <Route path="drlaqsha" element={<DrLaqsha />} />
           <Route path="drjuan" element={<DrJuan />} />
