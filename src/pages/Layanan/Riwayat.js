@@ -41,7 +41,7 @@ class Riwayat extends React.Component {
             </section>
           </main>
 
-          <footer style={{marginTop:'-55px'}}>
+          <footer>
             <div className="footer-content">
               <p>© 2025 Team Medicine | Juan</p>
             </div>
