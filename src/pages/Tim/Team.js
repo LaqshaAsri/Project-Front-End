@@ -6,6 +6,7 @@ class Team extends React.Component {
   render() {
     return (
       <>
+        <title>Team Kami | Team Medicine</title>
         <div className="tubagus-page">
           <main className="container mt-5 mb-5" style={{ paddingTop: "55px" }}>
             <header className="text-center mb-5">

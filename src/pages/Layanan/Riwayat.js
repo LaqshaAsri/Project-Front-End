@@ -6,6 +6,7 @@ class Riwayat extends React.Component {
   render() {
     return (
       <>
+        <title>Riwayat Interaksi | Team Medicine</title>
         <div className="juan-page">
           <header className="container">
             <section className="card" style={{ backgroundColor: "#0b7285", color: "white" }}>

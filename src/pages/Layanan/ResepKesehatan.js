@@ -6,6 +6,7 @@ class ResepKesehatan extends React.Component {
   render() {
     return (
       <>
+        <title>Resep Kesehatan | Team Medicine</title>
         <div className="juan-page">
           <main className="container py-5">
             <header className="text-center mb-5">

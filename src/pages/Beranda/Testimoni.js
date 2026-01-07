@@ -131,6 +131,7 @@ class Testimoni extends React.Component {
     ];
     return (
       <>
+        <title>Testimoni Pasien | Team Medicine</title>
         <div className="laqsha-page">
           <main style={{ marginTop: "80px" }}>
             <div className="card1 mt-4 py-5 px-md-5 px-3" style={{ background: "none" }}>

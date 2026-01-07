@@ -6,6 +6,7 @@ class Promo extends React.Component {
   render() {
     return (
       <>
+        <title>Promo | Team Medicine</title>
         <div className="felix-page page-wrapper">
           <main className="page-content bodyy">
             <div className="container service-box mt-4">

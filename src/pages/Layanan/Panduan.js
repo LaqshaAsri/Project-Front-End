@@ -6,6 +6,7 @@ class Panduan extends React.Component {
   render() {
     return (
       <>
+        <title>Panduan Pasien | Team Medicine</title>
         <div className="felix-page page-wrapper">
           <main className="page-content bodyy">
             <div className="container guide-box mt-4">

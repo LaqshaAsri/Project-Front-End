@@ -5,6 +5,7 @@ class Lisensi extends React.Component {
   render() {
     return (
       <>
+        <title>Lisensi & Sertifikasi | Team Medicine</title>
         <div className="maulana-page">
           <header className="text-center py-5 bg-light" style={{ marginTop: "70px" }}>
             <h1>

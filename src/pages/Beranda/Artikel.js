@@ -14,6 +14,7 @@ class Artikel extends React.Component {
   render() {
     return (
       <>
+        <title>Artikel Kesehatan | Team Medicine</title>
         <div className="laqsha-page">
           <main style={{ marginTop: "83px" }}>
             <div className="card1 mt-4 py-5 px-md-5 px-3 rounded-4">
